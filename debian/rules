@@ -23,8 +23,8 @@ override_dh_auto_install:
 	dh_auto_install -- PREFIX=/usr
 
 override_dh_auto_clean:
-	rm lib/renderers/wayland/xdg-output-unstable-v1.c
-	rm lib/renderers/wayland/xdg-output-unstable-v1.h
+	-rm lib/renderers/wayland/xdg-output-unstable-v1.c
+	-rm lib/renderers/wayland/xdg-output-unstable-v1.h
 	dh_auto_clean	
 
 # dh_make generated override targets
