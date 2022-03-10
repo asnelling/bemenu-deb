@@ -1,0 +1,32 @@
+Source: bemenu
+Section: misc
+Priority: optional
+Maintainer: Addison Snelling <contact@asnell.io>
+Build-Depends: debhelper-compat (= 12), pkg-config, scdoc, wayland-protocols,
+  libcairo-dev, libpango1.0-dev, libxkbcommon-dev, libwayland-dev,
+  libncursesw5-dev,
+  libxinerama-dev
+Standards-Version: 4.4.1
+Homepage: https://github.com/Cloudef/bemenu
+Vcs-Browser: https://github.com/Cloudef/bemenu
+Vcs-Git: https://github.com/Cloudef/bemenu.git
+
+Package: bemenu
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Dynamic menu library and client program inspired by dmenu
+
+# Package: bemenu-curses
+# Architecture: any
+# Depends: ${shlibs:Depends}, ${misc:Depends}
+# Description: Dynamic menu library and client program inspired by dmenu
+# 
+# Package: bemenu-x11
+# Architecture: any
+# Depends: ${shlibs:Depends}, ${misc:Depends}
+# Description: Dynamic menu library and client program inspired by dmenu
+# 
+# Package: bemenu-wayland
+# Architecture: any
+# Depends: ${shlibs:Depends}, ${misc:Depends}
+# Description: Dynamic menu library and client program inspired by dmenu

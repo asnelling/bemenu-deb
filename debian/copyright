@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: bemenu
+Upstream-Contact: Jari Vetoniemi <jari.vetoniemi@cloudef.pw>
+Source: https://github.com/Cloudef/bemenu
+
+Files: *
+Copyright: 2022 Jari Vetoniemi <jari.vetoniemi@cloudef.pw>
+License: GPL-3+
+
+Files: lib/*
+Copyright: 2022 Jari Vetoniemi <jari.vetoniemi@cloudef.pw>
+License: LGPL-3+
+
+Files: debian/*
+Copyright: 2022 Addison Snelling <contact@asnell.io>
+License: GPL-2+
